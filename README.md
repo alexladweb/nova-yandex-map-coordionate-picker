@@ -13,6 +13,7 @@ composer require jexme/yandex-map-coordionate-picker
 Now publish config and localization files:
 
 ```shell
+php artisan vendor:publish --tag=yandex-map-picker-config
 php artisan vendor:publish --tag=yandex-map-picker-lang
 ```
 
