@@ -6,15 +6,21 @@ This field allows you to select coordinates from Yandex.Maps for Laravel Nova
 
 You can install the package in to a Laravel app that uses Nova via composer:
 
-```composer require jexme/yandex-map-coordionate-picker```
+```bash
+composer require jexme/yandex-map-coordionate-picker
+```
 
 Now publish config and localization files:
 
-```php artisan vendor:publish --tag=yandex-map-picker-lang```
+```shell
+php artisan vendor:publish --tag=yandex-map-picker-lang
+```
 
 Add your api key to .env file
 
-```YANDEX_MAP_PICKER_API_KEY=#######################```
+```shell
+YANDEX_MAP_PICKER_API_KEY=#######################
+```
 
 ## Usage
 
