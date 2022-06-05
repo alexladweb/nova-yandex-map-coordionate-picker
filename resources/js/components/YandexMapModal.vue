@@ -109,7 +109,6 @@ export default {
   },
 
   mounted() {
-    console.log(this.value)
     ymaps.ready(this.initMap);
   },
 
@@ -156,7 +155,6 @@ export default {
 
       // Создание метки.
       function createPlacemark(coords) {
-        console.log(coords)
         myPlacemark = new ymaps.Placemark(coords, {}, {
           preset: 'islands#violetDotIconWithCaption',
           draggable: true
